@@ -221,3 +221,5 @@ function Get-GPPPassword {
 
     catch {Write-Error $Error[0]}
 }
+
+Get-GPPPassword
